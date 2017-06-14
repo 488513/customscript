@@ -1,4 +1,4 @@
-# PowerShell's New-Item creates a folder
+ # PowerShell's New-Item creates a folder
 
  param (
     [string]$server = "http://defaultserver"
