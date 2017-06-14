@@ -5,8 +5,8 @@
 
  )
  write-host $server
- $query = "update [cs2010].[KIni] SET [IniValue] ='" + $server `
-        + "' WHERE [IniSection] like 'docviewer.Settings' and [IniKeyword] like 'clienturl'"
+ $query = "update [cs2010].[KIni] SET [IniValue] ='''" + $server `
+        + "''' WHERE [IniSection] like 'docviewer.Settings' and [IniKeyword] like 'clienturl'"
 
 write-host $query
 
